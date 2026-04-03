@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2026-01-01 00:00:00-0500
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Abstract on referral event analysis accepted at **ACRO 2026 Summit**, based on work at Memorial Sloan Kettering.

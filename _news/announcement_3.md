@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2025-01-01 00:00:00-0500
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+**Papers2Code.org** now indexes over 300,000 ML/AI papers without public code implementations.
