@@ -9,6 +9,9 @@
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
+  font-weight: 400;
+  font-size: 0.95rem;
+  letter-spacing: 0.01em;
 }
 
 .navbar .dropdown-menu,
@@ -69,8 +72,8 @@
 
   .navbar-nav .nav-item.active > .nav-link {
     background-color: inherit;
-    font-weight: bolder;
-    color: var(--global-theme-color);
+    font-weight: 500;
+    color: var(--global-text-color);
 
     &:hover {
       color: var(--global-hover-color);

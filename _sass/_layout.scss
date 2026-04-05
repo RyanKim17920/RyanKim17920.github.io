@@ -8,6 +8,8 @@ body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.75;
 
   h1,
   h2,
@@ -37,6 +39,25 @@ body.sticky-bottom-footer {
 .profile {
   img {
     width: 100%;
+  }
+}
+
+// Generous spacing between about page sections
+.post article {
+  h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .clearfix {
+    margin-bottom: 2rem;
+  }
+
+  .news,
+  .latest-posts,
+  .selected-papers,
+  .social {
+    margin-bottom: 2.5rem;
   }
 }
 
