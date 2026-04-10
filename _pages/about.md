@@ -31,7 +31,10 @@ latest_posts:
 
 Senior at William Fremd High School, heading to UIUC in August 2026 for Computer Science. I build ML systems from scratch, systems-level software, and open-source tools. Currently researching clinical ML at Memorial Sloan Kettering and Weill Cornell, and non-coding DNA prognostic models as a Simons Fellow at Stony Brook.
 
-<h2 class="section-heading">Experience</h2>
+<h2 class="section-heading">
+  Experience
+  <span class="section-hint">click any row to expand</span>
+</h2>
 
 <div class="experience-list">
 
@@ -130,28 +133,16 @@ Senior at William Fremd High School, heading to UIUC in August 2026 for Computer
     </div>
   </details>
 
-  <details class="experience-item">
-    <summary class="experience-header">
-      <span class="experience-chevron">&#9656;</span>
-      <span class="experience-icon experience-icon-fallback">◼</span>
-      <div class="experience-main">
-        <div class="experience-top-row">
-          <div class="experience-title"><strong>Full-Stack Developer</strong> · Cyberlinc, Inc.</div>
-          <div class="experience-date">Aug 2023 — Jul 2024</div>
-        </div>
-        <div class="experience-tags">
-          <span class="tag">Flask</span><span class="tag">SQLAlchemy</span><span class="tag">Payments</span><span class="tag">Full-Stack</span>
-        </div>
-      </div>
-    </summary>
-    <div class="experience-details">
-      <p>Engineered a full-stack crowdfunding platform (Flask / SQLAlchemy) with secure payment integration.</p>
-    </div>
-  </details>
-
 </div>
 
-<h2 class="section-heading">Selected Projects</h2>
+<div class="section-more">
+  <a href="/assets/pdf/ryan_kim_cv.pdf" target="_blank" rel="noopener">Full CV (PDF) →</a>
+</div>
+
+<h2 class="section-heading">
+  Selected Projects
+  <a class="section-more-inline" href="/projects/">All projects →</a>
+</h2>
 
 <div class="projects-grid">
 
@@ -193,7 +184,10 @@ Senior at William Fremd High School, heading to UIUC in August 2026 for Computer
 
 </div>
 
-<h2 class="section-heading">Publications</h2>
+<h2 class="section-heading">
+  Publications
+  <a class="section-more-inline" href="/publications/">All publications →</a>
+</h2>
 
 <div class="publication-item">
   <div class="publication-title"><strong>From Text to Treatment: Automated Identification of Airway Events and Referral Patterns in Lung Cancer Imaging Using Locally Deployed CPU-Only LLMs</strong></div>
@@ -206,42 +200,52 @@ Senior at William Fremd High School, heading to UIUC in August 2026 for Computer
 <div class="skills-cards">
 
   <div class="skills-card">
-    <div class="skills-card-header">
-      <span class="skills-card-icon">&lt;/&gt;</span>
-      <span class="skills-card-title">Languages</span>
-    </div>
-    <div class="skill-chips">
-      <span class="chip">Python</span><span class="chip">Java</span><span class="chip">C/C++</span><span class="chip">SQL</span><span class="chip">JavaScript</span><span class="chip">HTML/CSS</span>
-    </div>
-  </div>
-
-  <div class="skills-card">
-    <div class="skills-card-header">
-      <span class="skills-card-icon">◆</span>
-      <span class="skills-card-title">ML / Data</span>
-    </div>
-    <div class="skill-chips">
-      <span class="chip">PyTorch</span><span class="chip">TensorFlow</span><span class="chip">Polars</span><span class="chip">Pandas</span><span class="chip">NumPy</span><span class="chip">Scikit-learn</span><span class="chip">Matplotlib</span><span class="chip">Plotly</span><span class="chip">R</span>
+    <div class="skills-card-title">Languages</div>
+    <div class="tech-grid">
+      <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt=""><span>Python</span></div>
+      <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt=""><span>Java</span></div>
+      <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt=""><span>C/C++</span></div>
+      <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt=""><span>SQL</span></div>
+      <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt=""><span>JavaScript</span></div>
+      <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt=""><span>HTML/CSS</span></div>
     </div>
   </div>
 
   <div class="skills-card">
-    <div class="skills-card-header">
-      <span class="skills-card-icon">◉</span>
-      <span class="skills-card-title">Web / Backend</span>
-    </div>
-    <div class="skill-chips">
-      <span class="chip">React</span><span class="chip">Next.js</span><span class="chip">Express.js</span><span class="chip">Flask</span><span class="chip">FastAPI</span><span class="chip">MongoDB</span><span class="chip">SQLAlchemy</span>
+    <div class="skills-card-title">ML / Data</div>
+    <div class="tech-grid">
+      <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt=""><span>PyTorch</span></div>
+      <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt=""><span>TensorFlow</span></div>
+      <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt=""><span>Pandas</span></div>
+      <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt=""><span>NumPy</span></div>
+      <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" alt=""><span>Scikit-learn</span></div>
+      <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" alt=""><span>Matplotlib</span></div>
+      <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/plotly/plotly-original.svg" alt=""><span>Plotly</span></div>
+      <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" alt=""><span>R</span></div>
+      <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/polars/polars-original.svg" alt=""><span>Polars</span></div>
     </div>
   </div>
 
   <div class="skills-card">
-    <div class="skills-card-header">
-      <span class="skills-card-icon">⌘</span>
-      <span class="skills-card-title">Tools</span>
+    <div class="skills-card-title">Web / Backend</div>
+    <div class="tech-grid">
+      <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt=""><span>React</span></div>
+      <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt=""><span>Next.js</span></div>
+      <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt=""><span>Express</span></div>
+      <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" alt=""><span>Flask</span></div>
+      <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" alt=""><span>FastAPI</span></div>
+      <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt=""><span>MongoDB</span></div>
+      <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlalchemy/sqlalchemy-original.svg" alt=""><span>SQLAlchemy</span></div>
     </div>
-    <div class="skill-chips">
-      <span class="chip">Git</span><span class="chip">Linux</span><span class="chip">Docker</span><span class="chip">VS Code</span>
+  </div>
+
+  <div class="skills-card">
+    <div class="skills-card-title">Tools</div>
+    <div class="tech-grid">
+      <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt=""><span>Git</span></div>
+      <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt=""><span>Linux</span></div>
+      <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt=""><span>Docker</span></div>
+      <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt=""><span>VS Code</span></div>
     </div>
   </div>
 
