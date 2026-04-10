@@ -4,12 +4,6 @@ title: about
 permalink: /
 subtitle: Incoming CS @ UIUC — building ML systems and full-stack tools.
 
-profile:
-  align: right
-  more_info: >
-    <p>Palatine, IL</p>
-    <p><a href="mailto:ryankim17920@gmail.com">ryankim17920@gmail.com</a></p>
-
 selected_papers: false
 social: false
 
@@ -45,6 +39,7 @@ Senior at William Fremd High School, heading to UIUC in August 2026 for Computer
 
   <details class="experience-item">
     <summary class="experience-header">
+      <span class="experience-chevron">&#9656;</span>
       <img class="experience-icon" src="https://www.google.com/s2/favicons?domain=stonybrook.edu&sz=64" alt="" loading="lazy">
       <div class="experience-title"><strong>Simons Summer Research Fellow</strong> · Yurovsky Lab, Stony Brook University</div>
       <div class="experience-date">Jun 2025 — Present</div>
@@ -56,6 +51,7 @@ Senior at William Fremd High School, heading to UIUC in August 2026 for Computer
 
   <details class="experience-item">
     <summary class="experience-header">
+      <span class="experience-chevron">&#9656;</span>
       <img class="experience-icon" src="https://www.google.com/s2/favicons?domain=mathlinks.org&sz=64" alt="" loading="lazy">
       <div class="experience-title"><strong>Lead Technical Developer</strong> · MathLinks.org</div>
       <div class="experience-date">Nov 2025 — Present</div>
@@ -67,6 +63,7 @@ Senior at William Fremd High School, heading to UIUC in August 2026 for Computer
 
   <details class="experience-item">
     <summary class="experience-header">
+      <span class="experience-chevron">&#9656;</span>
       <img class="experience-icon" src="https://www.google.com/s2/favicons?domain=mskcc.org&sz=64" alt="" loading="lazy">
       <div class="experience-title"><strong>Research Intern</strong> · Advanced Computing &amp; Oncology Lab, Memorial Sloan Kettering</div>
       <div class="experience-date">Dec 2024 — Jan 2026</div>
@@ -78,6 +75,7 @@ Senior at William Fremd High School, heading to UIUC in August 2026 for Computer
 
   <details class="experience-item">
     <summary class="experience-header">
+      <span class="experience-chevron">&#9656;</span>
       <img class="experience-icon" src="https://www.google.com/s2/favicons?domain=weill.cornell.edu&sz=64" alt="" loading="lazy">
       <div class="experience-title"><strong>Research Intern</strong> · AI in Medicine &amp; Computational Biology Lab, Weill Cornell Medicine</div>
       <div class="experience-date">Oct 2024 — Present</div>
@@ -89,6 +87,7 @@ Senior at William Fremd High School, heading to UIUC in August 2026 for Computer
 
   <details class="experience-item">
     <summary class="experience-header">
+      <span class="experience-chevron">&#9656;</span>
       <img class="experience-icon" src="https://www.google.com/s2/favicons?domain=papers2code.org&sz=64" alt="" loading="lazy">
       <div class="experience-title"><strong>Founder</strong> · <a href="https://papers2code.org" target="_blank" rel="noopener">Papers2Code.org</a></div>
       <div class="experience-date">Jan 2024 — Present</div>
@@ -100,6 +99,7 @@ Senior at William Fremd High School, heading to UIUC in August 2026 for Computer
 
   <details class="experience-item">
     <summary class="experience-header">
+      <span class="experience-chevron">&#9656;</span>
       <span class="experience-icon experience-icon-fallback"><i class="fa-solid fa-briefcase"></i></span>
       <div class="experience-title"><strong>Full-Stack Developer</strong> · Cyberlinc, Inc.</div>
       <div class="experience-date">Aug 2023 — Jul 2024</div>
