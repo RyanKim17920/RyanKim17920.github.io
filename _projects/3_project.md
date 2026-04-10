@@ -1,13 +1,14 @@
 ---
 layout: page
-title: Deep Mixture of Experts
-description: Unofficial PyTorch implementation of "Deep MoE via Shallow Embedding" (arXiv 1806.01531).
-img:
-importance: 3
-category: machine-learning
-github: https://github.com/RyanKim17920/Deep-Mixture-of-Experts-via-Shallow-Embedding
+title: Deep Mixture of Experts Reproduction
+description: Open-source PyTorch reproduction of "Deep Mixture of Experts via Shallow Embedding," a paper that lacked public code.
+img: assets/img/prof_pic.jpg
+importance: 4
+category: work
+related_publications: false
 ---
 
-Open-source implementation of "Deep Mixture of Experts via Shallow Embedding," a paper that previously lacked public code. Supports ResNet and VGG architectures on CIFAR-10/100 with comprehensive CLI for training configuration.
+<!-- TODO: Ryan, replace img with a real project image and add screenshots/diagrams -->
+Open-sourced the implementation for "Deep Mixture of Experts via Shallow Embedding," a computer vision paper that previously had no public code. Reproduced the model architecture directly from the original paper.
 
-Includes analysis of training instabilities observed when following the original paper's methodology, along with modified approaches for stable convergence.
+Built July–November 2024. Source code on [GitHub](https://github.com/RyanKim17920/Deep-Mixture-of-Experts-via-Shallow-Embedding).

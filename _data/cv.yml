@@ -1,10 +1,12 @@
 cv:
   name: Ryan Kim
-  label: Student Researcher
+  label: Incoming CS Undergrad, UIUC
   email: ryankim17920@gmail.com
+  phone: "224-517-7069"
+  url: https://ryankim17920.github.io
   location: Palatine, IL
   image: ""
-  summary: Student researcher at the intersection of AI and healthcare, building ML systems for oncology, genomics, and medical imaging.
+  summary: "Incoming CS undergrad at UIUC. I build ML systems and full-stack tools — current work spans self-supervised ViTs, LLM pipelines for clinical text, and a math-competition platform serving 150k members."
 
   social_networks:
     - network: GitHub
@@ -14,12 +16,22 @@ cv:
 
   sections:
     Education:
+      - institution: University of Illinois Urbana-Champaign
+        location: Urbana, IL
+        area: Computer Science
+        studyType: B.S.
+        start_date: 2026-08-01
+        end_date: 2029-05-01
+        score: ""
+        highlights:
+          - "Incoming — expected May 2029"
+
       - institution: William Fremd High School
         location: Palatine, IL
         area: ""
         studyType: ""
-        start_date: 2021
-        end_date: Present
+        start_date: 2021-08-01
+        end_date: 2026-05-01
         score: "4.0/4.0 (UW), 5.207 (W)"
         highlights:
           - "AIME Qualifier (4x), Simons Fellow"
@@ -37,7 +49,7 @@ cv:
       - company: MathLinks.org
         position: Lead Technical Developer
         location: Remote
-        start_date: 2024-12-01
+        start_date: 2025-11-01
         end_date: Present
         highlights:
           - "Raised $20k in funding (Hudson River Trading, Innovate901 First Place); built full-stack math competition platform serving 150k+ members across 11 partner organizations."
@@ -88,15 +100,22 @@ cv:
       - title: AIME Qualifier (4x)
         date: 2024
         awarder: Mathematical Association of America
+        summary: "Qualified for AIME four times across high school career."
 
       - title: Simons Summer Research Fellow
         date: 2025
         awarder: Simons Foundation
+        summary: "Competitive research fellowship at Stony Brook University."
 
       - title: Innovate901 First Place
-        date: 2024
+        date: 2025
         awarder: Innovate901
-        summary: "Awarded for MathLinks.org platform"
+        summary: "Awarded for MathLinks.org platform."
+
+      - title: Hudson River Trading Funding Recipient
+        date: 2025
+        awarder: Hudson River Trading
+        summary: "Contributed to $20k raised for MathLinks.org."
 
     Skills:
       - name: Languages
@@ -117,4 +136,13 @@ cv:
       - name: Developer Tools
         level: ""
         icon: fa-solid fa-screwdriver-wrench
-        keywords: "Git, Linux, VS Code, Docker"
+        keywords: "Git, Linux, VS Code"
+
+# TODO: Ryan, add any publications here if/when you have citable ones.
+# publications: []
+
+# TODO: Ryan, add interests here if you want (e.g., hobbies, topics).
+# interests: []
+
+# TODO: Ryan, add references here if desired.
+# references: []

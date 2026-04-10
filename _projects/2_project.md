@@ -1,13 +1,14 @@
 ---
 layout: page
 title: Papers2Code
-description: Full-stack platform (FastAPI + React + TypeScript + MongoDB) bridging ML research papers and reproducible code.
-img:
+description: Platform indexing 300k+ ML/AI papers lacking public code, with automated paper-to-repository mapping.
+img: assets/img/prof_pic.jpg
 importance: 2
-category: full-stack
-github: https://github.com/RyanKim17920/Papers2Code
+category: work
+related_publications: false
 ---
 
-Founded and built a platform indexing 300k+ ML/AI papers that lack public code implementations. Features include automated paper-to-GitHub repository mapping, community voting for implementation priority, and real-time progress tracking.
+<!-- TODO: Ryan, replace img with a real project image and add screenshots/diagrams -->
+A platform that indexes over 300,000 ML/AI research papers that lack public code implementations. Built a pipeline to automatically map papers to their corresponding GitHub repositories.
 
-**Tech stack:** FastAPI, React 18, TypeScript, MongoDB Atlas, Docker, OAuth 2.0 (GitHub/Google)
+Running since January 2024. Visit at [papers2code.org](https://papers2code.org).
