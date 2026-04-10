@@ -2,7 +2,6 @@
 layout: page
 title: MathLinks.org
 description: Full-stack math competition platform serving 150k+ members across 11 partner organizations.
-img: assets/img/prof_pic.jpg
 importance: 3
 category: work
 related_publications: false

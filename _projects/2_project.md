@@ -2,7 +2,6 @@
 layout: page
 title: Papers2Code
 description: Platform indexing 300k+ ML/AI papers lacking public code, with automated paper-to-repository mapping.
-img: assets/img/prof_pic.jpg
 importance: 2
 category: work
 related_publications: false
