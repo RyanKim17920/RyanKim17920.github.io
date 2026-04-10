@@ -119,24 +119,20 @@ cv:
 
     Skills:
       - name: Languages
-        level: ""
         icon: fa-solid fa-code
         keywords: "Python, Java, C/C++, SQL (PostgreSQL), JavaScript, HTML/CSS"
 
       - name: ML / Data Science
-        level: ""
         icon: fa-solid fa-brain
         keywords: "PyTorch, TensorFlow, Polars, Pandas, NumPy, Scikit-learn, Matplotlib, Plotly, R"
 
       - name: Web / Backend
-        level: ""
         icon: fa-solid fa-server
         keywords: "React, Next.js, Express.js, Flask, FastAPI, MongoDB, SQLAlchemy"
 
       - name: Developer Tools
-        level: ""
         icon: fa-solid fa-screwdriver-wrench
-        keywords: "Git, Linux, VS Code"
+        keywords: "Git, Linux, VS Code, Docker"
 
 # TODO: Ryan, add any publications here if/when you have citable ones.
 # publications: []
