@@ -37,58 +37,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-        
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
-          
-        },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-          
-        },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-raised-20k-in-funding-hudson-river-trading-innovate901-first-place-for-mathlinks-org",
-          title: 'Raised $20k in funding (Hudson River Trading, Innovate901 First Place) for MathLinks.org.',
-          description: "",
-          section: "News",},{id: "news-papers2code-org-now-indexes-over-300-000-ml-ai-papers-without-public-code-implementations",
-          title: 'Papers2Code.org now indexes over 300,000 ML/AI papers without public code implementations.',
-          description: "",
-          section: "News",},{id: "news-selected-as-a-simons-summer-research-fellow-at-stony-brook-university",
-          title: 'Selected as a Simons Summer Research Fellow at Stony Brook University.',
-          description: "",
-          section: "News",},{id: "news-abstract-on-referral-event-analysis-accepted-at-acro-2026-summit-based-on-work-at-memorial-sloan-kettering",
-          title: 'Abstract on referral event analysis accepted at ACRO 2026 Summit, based on work...',
-          description: "",
-          section: "News",},{id: "projects-nanodinov3",
+        },{id: "projects-nanodinov3",
           title: 'nanoDINOv3',
-          description: "Complete DINOv3 self-supervised ViT training in dependency-free Python.",
+          description: "Self-supervised ViT training system in dependency-free Python.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-papers2code",
           title: 'Papers2Code',
-          description: "Full-stack platform (FastAPI + React + TypeScript + MongoDB) bridging ML research papers and reproducible code.",
+          description: "Platform indexing 300k+ ML/AI papers lacking public code, with automated paper-to-repository mapping.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-deep-mixture-of-experts",
-          title: 'Deep Mixture of Experts',
-          description: "Unofficial PyTorch implementation of &quot;Deep MoE via Shallow Embedding&quot; (arXiv 1806.01531).",
+            },},{id: "projects-deep-mixture-of-experts-reproduction",
+          title: 'Deep Mixture of Experts Reproduction',
+          description: "Open-source PyTorch reproduction of &quot;Deep Mixture of Experts via Shallow Embedding,&quot; a paper that lacked public code.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-mathlinks-org",
@@ -96,16 +57,6 @@ ninja.data = [{
           description: "Full-stack math competition platform serving 150k+ members across 11 partner organizations.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "teachings-data-science-fundamentals",
-          title: 'Data Science Fundamentals',
-          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/data-science-fundamentals/";
-            },},{id: "teachings-introduction-to-machine-learning",
-          title: 'Introduction to Machine Learning',
-          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/introduction-to-machine-learning/";
             },},{
         id: 'social-email',
         title: 'email',
