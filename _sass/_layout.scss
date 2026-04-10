@@ -86,3 +86,176 @@ body.sticky-bottom-footer {
   font-size: 2rem;
   font-weight: 700;
 }
+
+/******************************************************************************
+ * Single-page portfolio sections (experience / projects / publications)
+ ******************************************************************************/
+
+.section-heading {
+  font-size: 0.85rem !important;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--global-theme-color);
+  margin-top: 3rem !important;
+  margin-bottom: 1.25rem !important;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+// Experience timeline
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.experience-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  line-height: 1.4;
+}
+
+.experience-title {
+  flex: 1;
+  font-size: 0.98rem;
+  color: var(--global-text-color);
+
+  strong {
+    font-weight: 600;
+  }
+}
+
+.experience-date {
+  color: var(--global-text-color-light);
+  font-size: 0.82rem;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+}
+
+.experience-item > p {
+  margin: 0.25rem 0 0 0;
+  color: var(--global-text-color-light);
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+// Projects grid
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 1rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.15rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  text-decoration: none !important;
+  color: var(--global-text-color) !important;
+  background: var(--global-card-bg-color);
+  transition:
+    border-color 0.15s ease,
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+
+  &:hover {
+    border-color: var(--global-theme-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(29, 78, 216, 0.08);
+    text-decoration: none !important;
+  }
+}
+
+.project-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+
+.project-card h3 {
+  font-size: 0.98rem;
+  font-weight: 600;
+  margin: 0 !important;
+  color: var(--global-theme-color);
+}
+
+.project-date {
+  font-size: 0.78rem;
+  color: var(--global-text-color-light);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.project-card > p {
+  font-size: 0.9rem;
+  margin: 0 0 0.6rem 0 !important;
+  color: var(--global-text-color);
+  line-height: 1.5;
+}
+
+.project-tags {
+  font-size: 0.78rem;
+  color: var(--global-text-color-light);
+  margin-top: auto;
+}
+
+// Publication block
+.publication-item {
+  padding: 0.25rem 0 0.5rem 0;
+  line-height: 1.55;
+}
+
+.publication-title {
+  font-size: 0.98rem;
+  margin-bottom: 0.35rem;
+}
+
+.publication-meta {
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
+  margin-bottom: 0.5rem;
+}
+
+.publication-item > p {
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+  margin: 0.4rem 0 0 0 !important;
+}
+
+// Skills block
+.skills-block p {
+  margin-bottom: 0.35rem !important;
+  font-size: 0.92rem;
+  line-height: 1.55;
+
+  strong {
+    font-weight: 600;
+    color: var(--global-theme-color);
+  }
+}
+
+// Contact row
+.contact-row {
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+}
