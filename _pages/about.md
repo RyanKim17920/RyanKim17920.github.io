@@ -31,8 +31,6 @@ latest_posts:
 
 Senior at William Fremd High School, heading to UIUC in August 2026 for Computer Science. I build ML systems from scratch, systems-level software, and open-source tools. Currently researching clinical ML at Memorial Sloan Kettering and Weill Cornell, and non-coding DNA prognostic models as a Simons Fellow at Stony Brook.
 
-<div class="clearfix"></div>
-
 <h2 class="section-heading">Experience</h2>
 
 <div class="experience-list">
@@ -41,8 +39,15 @@ Senior at William Fremd High School, heading to UIUC in August 2026 for Computer
     <summary class="experience-header">
       <span class="experience-chevron">&#9656;</span>
       <img class="experience-icon" src="https://www.google.com/s2/favicons?domain=stonybrook.edu&sz=64" alt="" loading="lazy">
-      <div class="experience-title"><strong>Simons Summer Research Fellow</strong> · Yurovsky Lab, Stony Brook University</div>
-      <div class="experience-date">Jun 2025 — Present</div>
+      <div class="experience-main">
+        <div class="experience-top-row">
+          <div class="experience-title"><strong>Simons Summer Research Fellow</strong> · Yurovsky Lab, Stony Brook University</div>
+          <div class="experience-date">Jun 2025 — Present</div>
+        </div>
+        <div class="experience-tags">
+          <span class="tag">Genomics</span><span class="tag">DNABERT</span><span class="tag">Cox Regression</span><span class="tag">Glioblastoma</span>
+        </div>
+      </div>
     </summary>
     <div class="experience-details">
       <p>DNABERT-based prognostic model for glioblastoma survival via Cox regression on non-coding regulatory DNA mutations; identified age-related survival signals and racial disparities encoded in mutational scores.</p>
@@ -53,8 +58,15 @@ Senior at William Fremd High School, heading to UIUC in August 2026 for Computer
     <summary class="experience-header">
       <span class="experience-chevron">&#9656;</span>
       <img class="experience-icon" src="https://www.google.com/s2/favicons?domain=mathlinks.org&sz=64" alt="" loading="lazy">
-      <div class="experience-title"><strong>Lead Technical Developer</strong> · MathLinks.org</div>
-      <div class="experience-date">Nov 2025 — Present</div>
+      <div class="experience-main">
+        <div class="experience-top-row">
+          <div class="experience-title"><strong>Lead Technical Developer</strong> · MathLinks.org</div>
+          <div class="experience-date">Nov 2025 — Present</div>
+        </div>
+        <div class="experience-tags">
+          <span class="tag">Full-Stack</span><span class="tag">Platform</span><span class="tag">Fundraising</span><span class="tag">150k+ users</span>
+        </div>
+      </div>
     </summary>
     <div class="experience-details">
       <p>Raised $20k in funding (Hudson River Trading, Innovate901 First Place). Built a full-stack math competition platform serving 150k+ members across 11 partner organizations.</p>
@@ -65,8 +77,15 @@ Senior at William Fremd High School, heading to UIUC in August 2026 for Computer
     <summary class="experience-header">
       <span class="experience-chevron">&#9656;</span>
       <img class="experience-icon" src="https://www.google.com/s2/favicons?domain=mskcc.org&sz=64" alt="" loading="lazy">
-      <div class="experience-title"><strong>Research Intern</strong> · Advanced Computing &amp; Oncology Lab, Memorial Sloan Kettering</div>
-      <div class="experience-date">Dec 2024 — Jan 2026</div>
+      <div class="experience-main">
+        <div class="experience-top-row">
+          <div class="experience-title"><strong>Research Intern</strong> · Advanced Computing &amp; Oncology Lab, Memorial Sloan Kettering</div>
+          <div class="experience-date">Dec 2024 — Jan 2026</div>
+        </div>
+        <div class="experience-tags">
+          <span class="tag">LLMs</span><span class="tag">DSPy</span><span class="tag">Clinical NLP</span><span class="tag">Oncology</span>
+        </div>
+      </div>
     </summary>
     <div class="experience-details">
       <p>Built a DSPy-optimized LLM pipeline to extract disease progression events from CT/PET/clinical reports. Co-authored abstract on referral event analysis accepted at ACRO 2026.</p>
@@ -77,8 +96,15 @@ Senior at William Fremd High School, heading to UIUC in August 2026 for Computer
     <summary class="experience-header">
       <span class="experience-chevron">&#9656;</span>
       <img class="experience-icon" src="https://www.google.com/s2/favicons?domain=weill.cornell.edu&sz=64" alt="" loading="lazy">
-      <div class="experience-title"><strong>Research Intern</strong> · AI in Medicine &amp; Computational Biology Lab, Weill Cornell Medicine</div>
-      <div class="experience-date">Oct 2024 — Present</div>
+      <div class="experience-main">
+        <div class="experience-top-row">
+          <div class="experience-title"><strong>Research Intern</strong> · AI in Medicine &amp; Computational Biology Lab, Weill Cornell Medicine</div>
+          <div class="experience-date">Oct 2024 — Present</div>
+        </div>
+        <div class="experience-tags">
+          <span class="tag">Computer Vision</span><span class="tag">Generalization</span><span class="tag">TCGA</span><span class="tag">Tumor Purity</span>
+        </div>
+      </div>
     </summary>
     <div class="experience-details">
       <p>Investigated systematic bias in AI tumor purity estimators across TCGA and internal cohorts; demonstrated that scaling data volume and model size fails to resolve generalization gaps across cohorts.</p>
@@ -89,8 +115,15 @@ Senior at William Fremd High School, heading to UIUC in August 2026 for Computer
     <summary class="experience-header">
       <span class="experience-chevron">&#9656;</span>
       <img class="experience-icon" src="https://www.google.com/s2/favicons?domain=papers2code.org&sz=64" alt="" loading="lazy">
-      <div class="experience-title"><strong>Founder</strong> · <a href="https://papers2code.org" target="_blank" rel="noopener">Papers2Code.org</a></div>
-      <div class="experience-date">Jan 2024 — Present</div>
+      <div class="experience-main">
+        <div class="experience-top-row">
+          <div class="experience-title"><strong>Founder</strong> · <a href="https://papers2code.org" target="_blank" rel="noopener">Papers2Code.org</a></div>
+          <div class="experience-date">Jan 2024 — Present</div>
+        </div>
+        <div class="experience-tags">
+          <span class="tag">Python</span><span class="tag">Data Pipeline</span><span class="tag">300k+ papers</span><span class="tag">Open Source</span>
+        </div>
+      </div>
     </summary>
     <div class="experience-details">
       <p>Founded platform indexing 300k+ ML/AI papers lacking public code implementations; built pipeline to map papers to GitHub repositories.</p>
@@ -100,9 +133,16 @@ Senior at William Fremd High School, heading to UIUC in August 2026 for Computer
   <details class="experience-item">
     <summary class="experience-header">
       <span class="experience-chevron">&#9656;</span>
-      <span class="experience-icon experience-icon-fallback"><i class="fa-solid fa-briefcase"></i></span>
-      <div class="experience-title"><strong>Full-Stack Developer</strong> · Cyberlinc, Inc.</div>
-      <div class="experience-date">Aug 2023 — Jul 2024</div>
+      <span class="experience-icon experience-icon-fallback">◼</span>
+      <div class="experience-main">
+        <div class="experience-top-row">
+          <div class="experience-title"><strong>Full-Stack Developer</strong> · Cyberlinc, Inc.</div>
+          <div class="experience-date">Aug 2023 — Jul 2024</div>
+        </div>
+        <div class="experience-tags">
+          <span class="tag">Flask</span><span class="tag">SQLAlchemy</span><span class="tag">Payments</span><span class="tag">Full-Stack</span>
+        </div>
+      </div>
     </summary>
     <div class="experience-details">
       <p>Engineered a full-stack crowdfunding platform (Flask / SQLAlchemy) with secure payment integration.</p>
@@ -163,29 +203,46 @@ Senior at William Fremd High School, heading to UIUC in August 2026 for Computer
 
 <h2 class="section-heading">Skills</h2>
 
-<div class="skills-grid">
-  <div class="skills-row">
-    <span class="skills-label">Languages</span>
+<div class="skills-cards">
+
+  <div class="skills-card">
+    <div class="skills-card-header">
+      <span class="skills-card-icon">&lt;/&gt;</span>
+      <span class="skills-card-title">Languages</span>
+    </div>
     <div class="skill-chips">
       <span class="chip">Python</span><span class="chip">Java</span><span class="chip">C/C++</span><span class="chip">SQL</span><span class="chip">JavaScript</span><span class="chip">HTML/CSS</span>
     </div>
   </div>
-  <div class="skills-row">
-    <span class="skills-label">ML / Data</span>
+
+  <div class="skills-card">
+    <div class="skills-card-header">
+      <span class="skills-card-icon">◆</span>
+      <span class="skills-card-title">ML / Data</span>
+    </div>
     <div class="skill-chips">
       <span class="chip">PyTorch</span><span class="chip">TensorFlow</span><span class="chip">Polars</span><span class="chip">Pandas</span><span class="chip">NumPy</span><span class="chip">Scikit-learn</span><span class="chip">Matplotlib</span><span class="chip">Plotly</span><span class="chip">R</span>
     </div>
   </div>
-  <div class="skills-row">
-    <span class="skills-label">Web / Backend</span>
+
+  <div class="skills-card">
+    <div class="skills-card-header">
+      <span class="skills-card-icon">◉</span>
+      <span class="skills-card-title">Web / Backend</span>
+    </div>
     <div class="skill-chips">
       <span class="chip">React</span><span class="chip">Next.js</span><span class="chip">Express.js</span><span class="chip">Flask</span><span class="chip">FastAPI</span><span class="chip">MongoDB</span><span class="chip">SQLAlchemy</span>
     </div>
   </div>
-  <div class="skills-row">
-    <span class="skills-label">Tools</span>
+
+  <div class="skills-card">
+    <div class="skills-card-header">
+      <span class="skills-card-icon">⌘</span>
+      <span class="skills-card-title">Tools</span>
+    </div>
     <div class="skill-chips">
       <span class="chip">Git</span><span class="chip">Linux</span><span class="chip">Docker</span><span class="chip">VS Code</span>
     </div>
   </div>
+
 </div>
