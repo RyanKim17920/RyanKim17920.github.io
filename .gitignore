@@ -12,4 +12,9 @@ assets/libs/
 assets/rendercv/rendercv_output/*.typ
 Gemfile.lock
 node_modules/
-vendorassets/pdf/resume.*
+vendor
+
+# LaTeX build artifacts
+assets/pdf/resume.aux
+assets/pdf/resume.log
+assets/pdf/resume.out
