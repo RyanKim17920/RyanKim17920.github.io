@@ -377,6 +377,56 @@ body.sticky-bottom-footer {
   }
 }
 
+// Collapsible wrapper for older experience
+.experience-more-wrapper {
+  margin-top: 0.5rem;
+
+  &[open] .experience-more-caret {
+    transform: rotate(180deg);
+  }
+}
+
+.experience-more-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--global-text-color-light);
+  cursor: pointer;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  background: var(--global-card-bg-color);
+  transition:
+    color 0.15s ease,
+    border-color 0.15s ease,
+    background 0.15s ease;
+  list-style: none;
+
+  &::-webkit-details-marker,
+  &::marker {
+    display: none;
+    content: '';
+  }
+
+  &:hover {
+    color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+    background: rgba(29, 78, 216, 0.04);
+  }
+}
+
+.experience-more-caret {
+  display: inline-flex;
+  transition: transform 0.2s ease;
+  font-size: 0.7rem;
+}
+
+.experience-list-more {
+  margin-top: 0.75rem;
+}
+
 // Projects grid
 .projects-grid {
   display: grid;

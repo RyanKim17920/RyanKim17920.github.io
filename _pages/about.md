@@ -135,6 +135,35 @@ Senior at William Fremd High School, heading to UIUC in August 2026 for Computer
 
 </div>
 
+<details class="experience-more-wrapper">
+  <summary class="experience-more-toggle">
+    <span>Show older experience</span>
+    <span class="experience-more-caret">&#9662;</span>
+  </summary>
+  <div class="experience-list experience-list-more">
+
+    <details class="experience-item">
+      <summary class="experience-header">
+        <span class="experience-chevron">&#9656;</span>
+        <span class="experience-icon experience-icon-fallback">◼</span>
+        <div class="experience-main">
+          <div class="experience-top-row">
+            <div class="experience-title"><strong>Full-Stack Developer</strong> · Cyberlinc, Inc.</div>
+            <div class="experience-date">Aug 2023 — Jul 2024</div>
+          </div>
+          <div class="experience-tags">
+            <span class="tag">Flask</span><span class="tag">SQLAlchemy</span><span class="tag">Payments</span><span class="tag">Full-Stack</span>
+          </div>
+        </div>
+      </summary>
+      <div class="experience-details">
+        <p>Engineered a full-stack crowdfunding platform (Flask / SQLAlchemy) with secure payment integration.</p>
+      </div>
+    </details>
+
+  </div>
+</details>
+
 <div class="section-more">
   <a href="/assets/pdf/ryan_kim_cv.pdf" target="_blank" rel="noopener">Full CV (PDF) →</a>
 </div>
