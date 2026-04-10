@@ -12,7 +12,7 @@ profile:
     <p>Palatine, IL</p>
     <p>ryankim17920@gmail.com</p>
 
-selected_papers: true
+selected_papers: false
 social: true
 
 announcements:

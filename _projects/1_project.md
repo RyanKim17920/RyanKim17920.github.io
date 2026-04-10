@@ -9,6 +9,15 @@ related_publications: false
 ---
 
 <!-- TODO: Ryan, replace img with a real project image and add screenshots/diagrams -->
-A from-scratch implementation of DINOv3 self-supervised Vision Transformer training, written in pure Python with zero external dependencies. Implements student-teacher exponential moving average, multi-crop augmentation strategy, and the centering mechanism described in the original paper.
 
-Built February–April 2026. Source code available on [GitHub](https://github.com/RyanKim17920).
+A from-scratch implementation of the DINOv3 self-supervised Vision Transformer training pipeline, written in pure Python with no external ML framework dependencies.
+
+**Built with:** Pure Python, Computer Vision
+
+**GitHub:** [RyanKim17920](https://github.com/RyanKim17920)
+
+- Implements the complete student-teacher exponential moving average (EMA) setup described in the original paper
+- Supports multi-crop augmentation strategy and the centering mechanism
+- Zero external ML framework dependencies — entire training system in pure Python
+
+_February – April 2026_
