@@ -6,8 +6,6 @@ subtitle: Incoming CS @ UIUC — building ML systems and full-stack tools.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false
   more_info: >
     <p>Palatine, IL</p>
     <p><a href="mailto:ryankim17920@gmail.com">ryankim17920@gmail.com</a></p>
