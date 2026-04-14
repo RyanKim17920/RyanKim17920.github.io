@@ -37,8 +37,7 @@ Current focus: clinical ML research at Memorial Sloan Kettering and Weill Cornel
   Quick links:
   <a href="/projects/">Projects</a> ·
   <a href="/publications/">Publications</a> ·
-  <a href="/cv/">CV page</a> ·
-  <a href="/repositories/">GitHub repos</a>
+  <a href="/cv/">CV page</a>
 </p>
 
 <h2 class="section-heading">
