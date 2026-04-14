@@ -15,7 +15,7 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: computer science, machine learning, deep learning, self-supervised learning, full-stack, open source, systems
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ryk-favicon.svg # favicon image name in /assets/img/
+icon: ryk-favicon-v2.svg # favicon image name in /assets/img/
 
 url: https://ryankim17920.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
