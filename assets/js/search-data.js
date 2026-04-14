@@ -30,8 +30,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "projects-nanodinov3",
-          title: 'nanoDINOv3',
+        },{id: "projects-microdinov3",
+          title: 'microDINOv3',
           description: "Self-supervised ViT training system in dependency-free Python.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
