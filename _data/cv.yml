@@ -6,7 +6,7 @@ cv:
   url: https://ryankim17920.github.io
   location: Palatine, IL
   image: ""
-  summary: "Incoming CS undergrad at UIUC. I build ML systems and full-stack tools — current work spans self-supervised ViTs, LLM pipelines for clinical text, and a math-competition platform serving 150k members."
+  summary: "Incoming CS undergrad at UIUC with experience building clinical ML systems, computer vision models, and full-stack platforms."
 
   social_networks:
     - network: GitHub
@@ -35,7 +35,7 @@ cv:
         score: "4.0/4.0 (UW), 5.207 (W)"
         highlights:
           - "AIME Qualifier (4x), Simons Fellow"
-          - "Relevant Coursework: Linear Algebra (A), Multivariable Calculus (A+), AP Statistics (5)"
+          - "Relevant Coursework: Linear Algebra, Multivariable Calculus, AP Statistics"
 
     Experience:
       - company: Yurovsky Lab, Stony Brook University (Simons Foundation)
@@ -44,7 +44,8 @@ cv:
         start_date: 2025-06-01
         end_date: Present
         highlights:
-          - "Developed DNABERT-based prognostic model predicting glioblastoma survival via Cox regression on non-coding regulatory DNA mutations; identified age-related survival signals and racial disparities encoded in mutational scores."
+          - "Predicted glioblastoma survival rates by architecting a DNABERT-based prognostic model using Cox regression on non-coding regulatory DNA mutations."
+          - "Identified significant age-related survival signals and racial disparities encoded in mutational scores to improve model interpretability."
 
       - company: MathLinks.org
         position: Lead Technical Developer
@@ -52,7 +53,8 @@ cv:
         start_date: 2025-11-01
         end_date: Present
         highlights:
-          - "Raised $20k in funding (Hudson River Trading, Innovate901 First Place); built full-stack math competition platform serving 150k+ members across 11 partner organizations."
+          - "Scaled a full-stack platform to serve 150,000+ members across 11 partner organizations by securing $20,000 in seed funding (Hudson River Trading, Innovate901 First Place)."
+          - "Built production-ready infrastructure using React and Node.js for high-concurrency math competition environments."
 
       - company: Advanced Computing & Oncology Lab, Memorial Sloan Kettering
         position: Research Intern
@@ -60,8 +62,8 @@ cv:
         start_date: 2024-12-01
         end_date: 2026-01-01
         highlights:
-          - "Built DSPy-optimized LLM pipeline to extract disease progression events from CT/PET/clinical reports."
-          - "Authored abstract on referral event analysis accepted for ACRO 2026 Summit."
+          - "Optimized disease progression extraction from clinical reports by engineering a DSPy-based LLM pipeline."
+          - "Authored a peer-reviewed abstract on referral event analysis accepted for the ACRO 2026 Summit."
 
       - company: AI in Medicine & Computational Biology Lab, Weill Cornell Medicine
         position: Research Intern
@@ -69,7 +71,7 @@ cv:
         start_date: 2024-10-01
         end_date: Present
         highlights:
-          - "Investigated systematic bias in AI tumor purity estimators across TCGA and internal cohorts; demonstrated that conventional scaling (data volume, model size) fails to resolve generalization gaps across cohorts."
+          - "Quantified systematic bias in AI tumor purity estimators across TCGA and internal cohorts to demonstrate scaling limitations in model generalization gaps."
 
       - company: Papers2Code.org
         position: Founder
@@ -77,7 +79,7 @@ cv:
         start_date: 2024-01-01
         end_date: Present
         highlights:
-          - "Founded platform indexing 300k+ ML/AI papers lacking code; built pipeline to map papers to GitHub repositories."
+          - "Developed a data-driven platform indexing 300,000+ ML/AI papers lacking code by building an automated pipeline to map research papers to GitHub repositories."
 
       - company: Cyberlinc, Inc.
         position: Full-Stack Developer
@@ -85,7 +87,21 @@ cv:
         start_date: 2023-08-01
         end_date: 2024-07-01
         highlights:
-          - "Engineered a full-stack crowdfunding platform (Flask/SQLAlchemy) with secure payment integration."
+          - "Engineered a secure full-stack crowdfunding platform using Flask and SQLAlchemy with integrated payment gateways for project funding."
+
+    Projects:
+      - name: micro-DINOv3
+        url: https://github.com/RyanKim17920
+        summary: "Pure Python, Computer Vision"
+        highlights:
+          - "Implemented a DINOv3 self-supervised ViT training system in dependency-free Python, featuring student-teacher EMA and multi-crop augmentation."
+
+      - name: Deep Mixture of Experts Reproduction
+        url: https://github.com/RyanKim17920/Deep-Mixture-of-Experts-via-Shallow-Embedding
+        summary: "PyTorch, Computer Vision"
+        highlights:
+          - "Open-sourced a PyTorch reproduction of \"Deep Mixture of Experts via Shallow Embedding\" to fill critical gaps in public research implementation."
+          - "Verified model architecture against original paper results to contribute a verified codebase to the open-source community."
 
     Leadership:
       - company: Fremd Math Team
@@ -94,45 +110,53 @@ cv:
         start_date: 2021-08-01
         end_date: Present
         highlights:
-          - "Led 60+ member team to 25+ regional/state top finishes; developed curriculum and modernized operations."
-
-    Awards:
-      - title: AIME Qualifier (4x)
-        date: 2024
-        awarder: Mathematical Association of America
-        summary: "Qualified for AIME four times across high school career."
-
-      - title: Simons Summer Research Fellow
-        date: 2025
-        awarder: Simons Foundation
-        summary: "Competitive research fellowship at Stony Brook University."
-
-      - title: Innovate901 First Place
-        date: 2025
-        awarder: Innovate901
-        summary: "Awarded for MathLinks.org platform."
-
-      - title: Hudson River Trading Funding Recipient
-        date: 2025
-        awarder: Hudson River Trading
-        summary: "Contributed to $20k raised for MathLinks.org."
+          - "Led a 60+ member team to 25+ regional/state top finishes by developing specialized curriculum and modernizing team operations."
 
     Skills:
       - name: Languages
         icon: fa-solid fa-code
-        keywords: "Python, Java, C/C++, SQL (PostgreSQL), JavaScript, HTML/CSS"
+        keywords:
+          - Python
+          - Java
+          - C/C++
+          - SQL (PostgreSQL)
+          - JavaScript
+          - HTML/CSS
+          - R
 
-      - name: ML / Data Science
+      - name: ML/Data Science
         icon: fa-solid fa-brain
-        keywords: "PyTorch, TensorFlow, Polars, Pandas, NumPy, Scikit-learn, Matplotlib, Plotly, R"
+        keywords:
+          - PyTorch
+          - TensorFlow
+          - DSPy
+          - HuggingFace
+          - Scikit-learn
+          - Polars
+          - Pandas
+          - NumPy
 
-      - name: Web / Backend
+      - name: Domain Expertise
+        icon: fa-solid fa-microscope
+        keywords:
+          - Clinical NLP
+          - Computational Oncology
+          - Survival Analysis
+          - Computer Vision
+
+      - name: Web/Backend & Tools
         icon: fa-solid fa-server
-        keywords: "React, Next.js, Express.js, Flask, FastAPI, MongoDB, SQLAlchemy"
-
-      - name: Developer Tools
-        icon: fa-solid fa-screwdriver-wrench
-        keywords: "Git, Linux, VS Code, Docker"
+        keywords:
+          - React
+          - NextJS
+          - ExpressJS
+          - Flask
+          - FastAPI
+          - MongoDB
+          - SQLAlchemy
+          - Git
+          - Linux
+          - Docker
 
 # TODO: Ryan, add any publications here if/when you have citable ones.
 # publications: []

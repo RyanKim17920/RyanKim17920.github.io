@@ -187,7 +187,7 @@ Current focus: clinical ML research at Memorial Sloan Kettering and Weill Cornel
 
   <a class="project-card" href="https://github.com/RyanKim17920" target="_blank" rel="noopener">
     <div class="project-card-header">
-      <h3>nanoDINOv3</h3>
+      <h3>microDINOv3</h3>
       <span class="project-date">2026</span>
     </div>
     <p>Complete DINOv3 self-supervised ViT training system in dependency-free pure Python — student-teacher EMA, multi-crop augmentation, centering mechanism.</p>

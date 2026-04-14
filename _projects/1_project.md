@@ -1,6 +1,6 @@
 ---
 layout: page
-title: nanoDINOv3
+title: microDINOv3
 description: Self-supervised ViT training system in dependency-free Python.
 importance: 1
 category: work
