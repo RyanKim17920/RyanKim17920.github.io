@@ -60,6 +60,18 @@
 
   .navbar-brand {
     color: var(--global-text-color);
+
+    &.title {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+    }
+
+    .ryk-brand-name {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 0.15rem;
+    }
   }
 
   .navbar-nav .nav-item .nav-link {
@@ -116,6 +128,31 @@
       }
     }
   }
+}
+
+.ryk-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.4rem;
+  height: 1.45rem;
+  padding: 0 0.42rem;
+  border: 1px solid var(--global-theme-color);
+  border-radius: 999px;
+  background-color: transparent;
+  color: var(--global-theme-color);
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  line-height: 1;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar .navbar-brand:hover .ryk-mark {
+  background-color: var(--global-hover-color);
+  border-color: var(--global-hover-color);
+  color: var(--global-hover-text-color);
 }
 
 .navbar-toggler {

@@ -54,7 +54,7 @@ Current focus: clinical ML research at Memorial Sloan Kettering and Weill Cornel
       <img class="experience-icon" src="https://www.google.com/s2/favicons?domain=stonybrook.edu&sz=64" alt="" loading="lazy">
       <div class="experience-main">
         <div class="experience-top-row">
-          <div class="experience-title"><strong>Simons Summer Research Fellow</strong> · Yurovsky Lab, Stony Brook University</div>
+          <div class="experience-title"><strong><a href="https://www.stonybrook.edu/simons/" target="_blank" rel="noopener">Simons Summer Research Fellow</a></strong> · <a href="https://ayurovsky.github.io/" target="_blank" rel="noopener">Yurovsky Lab</a>, Stony Brook University (<a href="https://www.simonsfoundation.org/" target="_blank" rel="noopener">Simons Foundation</a>)</div>
           <div class="experience-date">Jun 2025 — Present</div>
         </div>
         <div class="experience-tags">
@@ -158,7 +158,7 @@ Current focus: clinical ML research at Memorial Sloan Kettering and Weill Cornel
         <img class="experience-icon" src="/assets/img/logos/cyberlinc.svg" alt="Cyberlinc logo" loading="lazy">
         <div class="experience-main">
           <div class="experience-top-row">
-            <div class="experience-title"><strong>Full-Stack Developer</strong> · Cyberlinc, Inc.</div>
+            <div class="experience-title"><strong>Full-Stack Developer</strong> · <a href="https://cyberlinc.com/" target="_blank" rel="noopener">Cyberlinc, Inc.</a></div>
             <div class="experience-date">Aug 2023 — Jul 2024</div>
           </div>
           <div class="experience-tags">

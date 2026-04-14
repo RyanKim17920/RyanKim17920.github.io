@@ -17,6 +17,31 @@
 
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+    <script>
+      document.body.classList.add("has-page-loader");
+      window.setTimeout(function () {
+        document.body.classList.remove("has-page-loader");
+        var staleLoader = document.getElementById("ryk-loader");
+        if (staleLoader) {
+          staleLoader.classList.add("is-hidden");
+          window.setTimeout(function () {
+            staleLoader.remove();
+          }, 450);
+        }
+      }, 3200);
+    </script>
+
+    <div id="ryk-loader" class="ryk-loader" aria-hidden="true">
+      <div class="ryk-loader__inner">
+        <div class="ryk-loader__orbital">
+          <span class="ryk-loader__ring ryk-loader__ring--outer"></span>
+          <span class="ryk-loader__ring ryk-loader__ring--inner"></span>
+          <span class="ryk-loader__core">RYK</span>
+        </div>
+        <p class="ryk-loader__text">Loading portfolio...</p>
+      </div>
+    </div>
+
     <!-- Header -->
     {% include header.liquid %}
 

@@ -1,4 +1,41 @@
 $(document).ready(function () {
+  const pageLoader = document.getElementById("ryk-loader");
+
+  const dismissLoader = () => {
+    if (!pageLoader || pageLoader.dataset.dismissed === "true") {
+      return;
+    }
+
+    pageLoader.dataset.dismissed = "true";
+    pageLoader.classList.add("is-hidden");
+    document.body.classList.remove("has-page-loader");
+
+    window.setTimeout(() => {
+      pageLoader.remove();
+    }, 450);
+  };
+
+  if (pageLoader) {
+    if (document.readyState === "complete") {
+      window.requestAnimationFrame(dismissLoader);
+    } else {
+      window.addEventListener(
+        "load",
+        () => {
+          window.requestAnimationFrame(dismissLoader);
+        },
+        { once: true },
+      );
+    }
+
+    window.setTimeout(dismissLoader, 2300);
+    window.addEventListener("pageshow", (event) => {
+      if (event.persisted) {
+        dismissLoader();
+      }
+    });
+  }
+
   // add toggle functionality to abstract, award and bibtex buttons
   $("a.abstract").click(function () {
     $(this).parent().parent().find(".abstract.hidden").toggleClass("open");

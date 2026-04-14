@@ -40,6 +40,8 @@ cv:
     Experience:
       - company: Yurovsky Lab, Stony Brook University (Simons Foundation)
         position: Simons Summer Research Fellow
+        url: https://www.stonybrook.edu/simons/
+        company_url: https://ayurovsky.github.io/
         location: Stony Brook, NY
         start_date: 2025-06-01
         end_date: Present
@@ -83,6 +85,8 @@ cv:
 
       - company: Cyberlinc, Inc.
         position: Full-Stack Developer
+        url: https://cyberlinc.com/
+        company_url: https://cyberlinc.com/
         location: Remote
         start_date: 2023-08-01
         end_date: 2024-07-01
