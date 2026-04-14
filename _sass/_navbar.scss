@@ -134,25 +134,35 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 2.4rem;
-  height: 1.45rem;
-  padding: 0 0.42rem;
-  border: 1px solid var(--global-theme-color);
+  min-width: 2.55rem;
+  height: 1.5rem;
+  padding: 0 0.5rem;
+  border: 1px solid rgba(37, 99, 235, 0.45);
   border-radius: 999px;
-  background-color: transparent;
+  background: linear-gradient(135deg, rgba(29, 78, 216, 0.12), rgba(37, 99, 235, 0.26));
   color: var(--global-theme-color);
-  font-size: 0.62rem;
+  font-size: 0.64rem;
   font-weight: 700;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.15em;
   line-height: 1;
   text-transform: uppercase;
-  transition: all 0.2s ease-in-out;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 4px 12px rgba(29, 78, 216, 0.14);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
 .navbar .navbar-brand:hover .ryk-mark {
-  background-color: var(--global-hover-color);
+  background: linear-gradient(135deg, var(--global-theme-color), var(--global-hover-color));
   border-color: var(--global-hover-color);
-  color: var(--global-hover-text-color);
+  color: #fff;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.28);
+}
+
+html[data-theme="dark"] .ryk-mark {
+  border-color: rgba(147, 197, 253, 0.42);
+  background: linear-gradient(135deg, rgba(96, 165, 250, 0.18), rgba(59, 130, 246, 0.32));
+  color: #bfdbfe;
+  box-shadow: inset 0 0 0 1px rgba(191, 219, 254, 0.1), 0 6px 14px rgba(2, 6, 23, 0.35);
 }
 
 .navbar-toggler {
