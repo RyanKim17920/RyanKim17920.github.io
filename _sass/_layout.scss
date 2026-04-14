@@ -220,6 +220,22 @@ body.sticky-bottom-footer {
   }
 }
 
+.intro-links {
+  margin: 0.35rem 0 1.2rem 0 !important;
+  font-size: 0.88rem;
+  color: var(--global-text-color-light);
+
+  a {
+    color: var(--global-theme-color) !important;
+    text-decoration: none !important;
+    font-weight: 500;
+
+    &:hover {
+      text-decoration: underline !important;
+    }
+  }
+}
+
 // Experience (expandable via <details>)
 .experience-list {
   display: flex;
@@ -533,24 +549,26 @@ body.sticky-bottom-footer {
 
 .skills-card {
   padding: 1rem 1.1rem 1.1rem 1.1rem;
-  border: 1px solid var(--global-divider-color);
+  border: 1px solid rgba(29, 78, 216, 0.22);
   border-radius: 8px;
-  background: var(--global-card-bg-color);
+  background: linear-gradient(180deg, rgba(29, 78, 216, 0.03) 0%, transparent 42%), var(--global-card-bg-color);
   transition:
     border-color 0.18s ease,
-    box-shadow 0.18s ease;
+    box-shadow 0.18s ease,
+    transform 0.18s ease;
 
   &:hover {
-    border-color: var(--global-theme-color);
-    box-shadow: 0 2px 10px rgba(29, 78, 216, 0.05);
+    border-color: rgba(29, 78, 216, 0.45);
+    box-shadow: 0 6px 16px rgba(29, 78, 216, 0.1);
+    transform: translateY(-1px);
   }
 }
 
 .skills-card-title {
-  font-size: 0.72rem;
-  font-weight: 600;
+  font-size: 0.76rem;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.09em;
+  letter-spacing: 0.1em;
   color: var(--global-theme-color);
   margin-bottom: 0.85rem;
   padding-bottom: 0.5rem;
@@ -569,29 +587,51 @@ body.sticky-bottom-footer {
   align-items: center;
   justify-content: flex-start;
   gap: 0.4rem;
-  padding: 0.55rem 0.3rem;
+  padding: 0.58rem 0.35rem;
   border-radius: 6px;
-  transition: background 0.15s ease;
+  border: 1px solid rgba(29, 78, 216, 0.12);
+  background: rgba(29, 78, 216, 0.03);
+  transition:
+    background 0.15s ease,
+    border-color 0.15s ease,
+    transform 0.15s ease;
 
   &:hover {
-    background: rgba(29, 78, 216, 0.05);
+    background: rgba(29, 78, 216, 0.1);
+    border-color: rgba(29, 78, 216, 0.3);
+    transform: translateY(-1px);
   }
 
   img {
-    width: 28px;
-    height: 28px;
+    width: 30px;
+    height: 30px;
     object-fit: contain;
     flex-shrink: 0;
   }
 
   span {
-    font-size: 0.7rem;
-    font-weight: 500;
-    color: var(--global-text-color-light);
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--global-text-color);
     text-align: center;
     line-height: 1.2;
     white-space: nowrap;
   }
+}
+
+html[data-theme='dark'] .skills-card {
+  border-color: rgba(147, 197, 253, 0.3);
+  background: linear-gradient(180deg, rgba(147, 197, 253, 0.08) 0%, rgba(147, 197, 253, 0.02) 40%), var(--global-card-bg-color);
+}
+
+html[data-theme='dark'] .tech-item {
+  border-color: rgba(147, 197, 253, 0.28);
+  background: rgba(147, 197, 253, 0.08);
+}
+
+html[data-theme='dark'] .tech-item:hover {
+  border-color: rgba(147, 197, 253, 0.45);
+  background: rgba(147, 197, 253, 0.14);
 }
 
 // Dark mode — lighten white-on-black logos (git, linux, express, flask, vscode)

@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Open-source and full-stack work. All code on <a href="https://github.com/RyanKim17920">GitHub</a>.
+description: Open-source and full-stack work. All code on GitHub at github.com/RyanKim17920.
 nav: true
 nav_order: 3
 ---

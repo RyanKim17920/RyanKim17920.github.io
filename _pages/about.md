@@ -29,7 +29,17 @@ latest_posts:
   </a>
 </div>
 
-Senior at William Fremd High School, heading to UIUC in August 2026 for Computer Science. I build ML systems from scratch, systems-level software, and open-source tools. Currently researching clinical ML at Memorial Sloan Kettering and Weill Cornell, and non-coding DNA prognostic models as a Simons Fellow at Stony Brook.
+I’m Ryan Kim — a senior at William Fremd High School and incoming Computer Science student at UIUC (Fall 2026). I build ML systems from scratch, systems-level software, and open-source tools.
+
+Current focus: clinical ML research at Memorial Sloan Kettering and Weill Cornell, plus non-coding DNA prognostic modeling as a Simons Fellow at Stony Brook.
+
+<p class="intro-links">
+  Quick links:
+  <a href="/projects/">Projects</a> ·
+  <a href="/publications/">Publications</a> ·
+  <a href="/cv/">CV page</a> ·
+  <a href="/repositories/">GitHub repos</a>
+</p>
 
 <h2 class="section-heading">
   Experience
@@ -145,7 +155,7 @@ Senior at William Fremd High School, heading to UIUC in August 2026 for Computer
     <details class="experience-item">
       <summary class="experience-header">
         <span class="experience-chevron">&#9656;</span>
-        <span class="experience-icon experience-icon-fallback">◼</span>
+        <img class="experience-icon" src="/assets/img/logos/cyberlinc.svg" alt="Cyberlinc logo" loading="lazy">
         <div class="experience-main">
           <div class="experience-top-row">
             <div class="experience-title"><strong>Full-Stack Developer</strong> · Cyberlinc, Inc.</div>
@@ -251,7 +261,7 @@ Senior at William Fremd High School, heading to UIUC in August 2026 for Computer
       <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" alt=""><span>Matplotlib</span></div>
       <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/plotly/plotly-original.svg" alt=""><span>Plotly</span></div>
       <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" alt=""><span>R</span></div>
-      <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/polars/polars-original.svg" alt=""><span>Polars</span></div>
+      <div class="tech-item"><img src="/assets/img/logos/polars.svg" alt="Polars logo"><span>Polars</span></div>
     </div>
   </div>
 
