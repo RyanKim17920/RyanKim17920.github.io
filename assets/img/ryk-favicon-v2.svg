@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="RYK">
+  <defs>
+    <linearGradient id="bg" x1="6" y1="6" x2="58" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0b1220" />
+      <stop offset="100%" stop-color="#1e3a8a" />
+    </linearGradient>
+    <linearGradient id="accent" x1="12" y1="10" x2="52" y2="54" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#60a5fa" />
+    </linearGradient>
+  </defs>
+
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="url(#bg)" />
+  <rect x="5" y="5" width="54" height="54" rx="13" fill="none" stroke="#93c5fd" stroke-opacity="0.35" />
+
+  <path d="M14 50 L26 14 L31 14 L19 50 Z" fill="url(#accent)" opacity="0.92" />
+
+  <text
+    x="35"
+    y="39"
+    text-anchor="middle"
+    font-family="Inter, SF Pro Display, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+    font-size="15"
+    font-weight="700"
+    letter-spacing="2.3"
+    fill="#eff6ff"
+  >
+    YK
+  </text>
+</svg>
