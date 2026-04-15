@@ -116,39 +116,10 @@
 
       .ryk-loader__char:nth-child(2) {
         animation-delay: 0.28s;
-        color: #60a5fa;
       }
 
       .ryk-loader__char:nth-child(3) {
         animation-delay: 0.46s;
-        color: #38bdf8;
-      }
-
-      .ryk-loader__char--r {
-        font-family: "Cormorant Garamond", "Garamond", "Georgia", "Times New Roman", serif;
-        font-style: italic;
-        font-size: 1.22em;
-        font-weight: 600;
-        margin-right: 0.01em;
-      }
-
-      .ryk-loader__char--yk {
-        font-family: "Cormorant Garamond", "Garamond", "Georgia", "Times New Roman", serif;
-        font-size: 0.94em;
-        font-style: italic;
-        font-weight: 600;
-        letter-spacing: 0.01em;
-      }
-
-      .ryk-loader__subtitle {
-        margin: 0;
-        color: #93c5fd;
-        font-size: 0.8rem;
-        font-weight: 600;
-        font-family: "Cormorant Garamond", "Garamond", "Bodoni Moda", "Times New Roman", serif;
-        letter-spacing: 0.17em;
-        font-variant-caps: all-small-caps;
-        text-transform: uppercase;
       }
 
       .ryk-loader__line {
@@ -217,18 +188,6 @@
         color: #1e3a8a;
       }
 
-      html[data-theme='light'] .ryk-loader__char--r {
-        color: #1d4ed8;
-      }
-
-      html[data-theme='light'] .ryk-loader__char--yk {
-        color: #1e3a8a;
-      }
-
-      html[data-theme='light'] .ryk-loader__subtitle {
-        color: #2563eb;
-      }
-
       html[data-theme='light'] .ryk-loader__line {
         background: rgba(37, 99, 235, 0.2);
       }
@@ -256,11 +215,10 @@
     <div id="ryk-loader" class="ryk-loader" aria-hidden="true">
       <div class="ryk-loader__content">
         <div class="ryk-loader__wordmark" aria-label="RYK">
-          <span class="ryk-loader__char ryk-loader__char--r">R</span>
-          <span class="ryk-loader__char ryk-loader__char--yk">Y</span>
-          <span class="ryk-loader__char ryk-loader__char--yk">K</span>
+          <span class="ryk-loader__char">R</span>
+          <span class="ryk-loader__char">Y</span>
+          <span class="ryk-loader__char">K</span>
         </div>
-        <p class="ryk-loader__subtitle">Ryan Kim · ML + Systems</p>
         <span class="ryk-loader__line" aria-hidden="true">
           <span class="ryk-loader__line-fill"></span>
         </span>
