@@ -1,30 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="RYK">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="RYK monogram">
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="#f8fafc" />
+  <rect x="5" y="5" width="54" height="54" rx="13" fill="none" stroke="#cbd5e1" stroke-width="1.2" />
+
   <defs>
-    <linearGradient id="bg" x1="6" y1="6" x2="58" y2="58" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#0b1220" />
-      <stop offset="100%" stop-color="#1e3a8a" />
-    </linearGradient>
-    <linearGradient id="accent" x1="12" y1="10" x2="52" y2="54" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#38bdf8" />
-      <stop offset="100%" stop-color="#60a5fa" />
-    </linearGradient>
+    <clipPath id="ryk-clip-v2">
+      <rect x="8" y="8" width="48" height="48" rx="10" />
+    </clipPath>
   </defs>
 
-  <rect x="4" y="4" width="56" height="56" rx="14" fill="url(#bg)" />
-  <rect x="5" y="5" width="54" height="54" rx="13" fill="none" stroke="#93c5fd" stroke-opacity="0.35" />
-
-  <path d="M14 50 L26 14 L31 14 L19 50 Z" fill="url(#accent)" opacity="0.92" />
-
-  <text
-    x="35"
-    y="39"
-    text-anchor="middle"
-    font-family="Inter, SF Pro Display, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
-    font-size="15"
-    font-weight="700"
-    letter-spacing="2.3"
-    fill="#eff6ff"
-  >
-    YK
-  </text>
+  <g clip-path="url(#ryk-clip-v2)">
+    <text
+      x="32"
+      y="43"
+      text-anchor="middle"
+      font-family="Cormorant Garamond, Garamond, Georgia, Times New Roman, serif"
+      font-size="33.5"
+      font-style="italic"
+      font-weight="600"
+      letter-spacing="0.08"
+      textLength="42.5"
+      lengthAdjust="spacingAndGlyphs"
+      fill="#1e3a8a"
+    >
+      RYK
+    </text>
+  </g>
 </svg>
