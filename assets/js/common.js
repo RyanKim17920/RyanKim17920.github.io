@@ -1,7 +1,12 @@
 $(document).ready(function () {
   const pageLoader = document.getElementById("ryk-loader");
+  const configuredLoaderStart = Number(window.__rykLoaderStartedAt);
+  const loaderStartedAt = Number.isFinite(configuredLoaderStart) ? configuredLoaderStart : Date.now();
+  const configuredMinDuration = Number(window.__rykLoaderMinDuration);
+  const minLoaderDuration = Number.isFinite(configuredMinDuration) ? configuredMinDuration : 2200;
+  let dismissTimeoutId = null;
 
-  const dismissLoader = () => {
+  const performDismiss = () => {
     if (!pageLoader || pageLoader.dataset.dismissed === "true") {
       return;
     }
@@ -15,23 +20,41 @@ $(document).ready(function () {
     }, 450);
   };
 
+  const dismissLoader = (force = false) => {
+    if (!pageLoader || pageLoader.dataset.dismissed === "true") {
+      return;
+    }
+
+    if (dismissTimeoutId !== null) {
+      return;
+    }
+
+    const elapsed = Date.now() - loaderStartedAt;
+    const waitMs = force ? 0 : Math.max(0, minLoaderDuration - elapsed);
+
+    dismissTimeoutId = window.setTimeout(() => {
+      dismissTimeoutId = null;
+      performDismiss();
+    }, waitMs);
+  };
+
   if (pageLoader) {
     if (document.readyState === "complete") {
-      window.requestAnimationFrame(dismissLoader);
+      window.requestAnimationFrame(() => dismissLoader());
     } else {
       window.addEventListener(
         "load",
         () => {
-          window.requestAnimationFrame(dismissLoader);
+          window.requestAnimationFrame(() => dismissLoader());
         },
         { once: true },
       );
     }
 
-    window.setTimeout(dismissLoader, 2300);
+    window.setTimeout(() => dismissLoader(true), minLoaderDuration + 1400);
     window.addEventListener("pageshow", (event) => {
       if (event.persisted) {
-        dismissLoader();
+        dismissLoader(true);
       }
     });
   }

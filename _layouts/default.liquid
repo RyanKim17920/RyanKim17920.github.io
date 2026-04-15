@@ -19,6 +19,8 @@
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
     <script>
       document.body.classList.add("has-page-loader");
+      window.__rykLoaderStartedAt = Date.now();
+      window.__rykLoaderMinDuration = 2200;
       window.setTimeout(function () {
         document.body.classList.remove("has-page-loader");
         var staleLoader = document.getElementById("ryk-loader");
@@ -26,9 +28,9 @@
           staleLoader.classList.add("is-hidden");
           window.setTimeout(function () {
             staleLoader.remove();
-          }, 420);
+          }, 460);
         }
-      }, 2800);
+      }, 3600);
     </script>
 
     <style id="ryk-loader-critical">
@@ -87,13 +89,17 @@
       .ryk-loader__wordmark {
         display: inline-flex;
         align-items: baseline;
-        gap: 0.3rem;
+        gap: 0.12rem;
         font-size: clamp(2.1rem, 6.3vw, 3.35rem);
-        font-weight: 700;
+        font-family: "Cormorant Garamond", "Garamond", "Georgia", "Times New Roman", serif;
+        font-weight: 600;
         line-height: 1;
-        letter-spacing: 0.12em;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #dbeafe;
+        text-shadow: 0 10px 26px rgba(2, 6, 23, 0.48);
+        font-feature-settings: "liga" 1, "kern" 1;
+        white-space: nowrap;
       }
 
       .ryk-loader__char {
@@ -101,29 +107,47 @@
         opacity: 0;
         transform: translateY(18px) scale(0.94);
         filter: blur(4px);
-        animation: ryk-char-in 0.62s cubic-bezier(0.22, 0.9, 0.28, 1) forwards;
+        animation: ryk-char-in 0.82s cubic-bezier(0.22, 0.9, 0.28, 1) forwards;
       }
 
       .ryk-loader__char:nth-child(1) {
-        animation-delay: 0.02s;
+        animation-delay: 0.1s;
       }
 
       .ryk-loader__char:nth-child(2) {
-        animation-delay: 0.12s;
+        animation-delay: 0.28s;
         color: #60a5fa;
       }
 
       .ryk-loader__char:nth-child(3) {
-        animation-delay: 0.22s;
+        animation-delay: 0.46s;
         color: #38bdf8;
+      }
+
+      .ryk-loader__char--r {
+        font-family: "Cormorant Garamond", "Garamond", "Georgia", "Times New Roman", serif;
+        font-style: italic;
+        font-size: 1.22em;
+        font-weight: 600;
+        margin-right: 0.01em;
+      }
+
+      .ryk-loader__char--yk {
+        font-family: "Cormorant Garamond", "Garamond", "Georgia", "Times New Roman", serif;
+        font-size: 0.94em;
+        font-style: italic;
+        font-weight: 600;
+        letter-spacing: 0.01em;
       }
 
       .ryk-loader__subtitle {
         margin: 0;
         color: #93c5fd;
-        font-size: 0.76rem;
-        font-weight: 700;
-        letter-spacing: 0.12em;
+        font-size: 0.8rem;
+        font-weight: 600;
+        font-family: "Cormorant Garamond", "Garamond", "Bodoni Moda", "Times New Roman", serif;
+        letter-spacing: 0.17em;
+        font-variant-caps: all-small-caps;
         text-transform: uppercase;
       }
 
@@ -145,7 +169,7 @@
         border-radius: inherit;
         background: linear-gradient(90deg, #38bdf8, #3b82f6);
         box-shadow: 0 0 18px rgba(59, 130, 246, 0.5);
-        animation: ryk-line-sweep 1.05s ease-in-out infinite;
+        animation: ryk-line-sweep 1.22s ease-in-out infinite;
       }
 
       @keyframes ryk-char-in {
@@ -193,6 +217,14 @@
         color: #1e3a8a;
       }
 
+      html[data-theme='light'] .ryk-loader__char--r {
+        color: #1d4ed8;
+      }
+
+      html[data-theme='light'] .ryk-loader__char--yk {
+        color: #1e3a8a;
+      }
+
       html[data-theme='light'] .ryk-loader__subtitle {
         color: #2563eb;
       }
@@ -224,9 +256,9 @@
     <div id="ryk-loader" class="ryk-loader" aria-hidden="true">
       <div class="ryk-loader__content">
         <div class="ryk-loader__wordmark" aria-label="RYK">
-          <span class="ryk-loader__char">R</span>
-          <span class="ryk-loader__char">Y</span>
-          <span class="ryk-loader__char">K</span>
+          <span class="ryk-loader__char ryk-loader__char--r">R</span>
+          <span class="ryk-loader__char ryk-loader__char--yk">Y</span>
+          <span class="ryk-loader__char ryk-loader__char--yk">K</span>
         </div>
         <p class="ryk-loader__subtitle">Ryan Kim · ML + Systems</p>
         <span class="ryk-loader__line" aria-hidden="true">

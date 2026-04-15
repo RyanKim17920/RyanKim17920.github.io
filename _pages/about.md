@@ -72,7 +72,7 @@ Current focus: clinical ML research at Memorial Sloan Kettering and Weill Cornel
       <img class="experience-icon" src="https://www.google.com/s2/favicons?domain=mathlinks.org&sz=64" alt="" loading="lazy">
       <div class="experience-main">
         <div class="experience-top-row">
-          <div class="experience-title"><strong>Lead Technical Developer</strong> · MathLinks.org</div>
+          <div class="experience-title"><strong>Lead Technical Developer</strong> · <a  href="https://www.mathlinks.org" target="_blank" rel="noopener">MathLinks.org</a></div>
           <div class="experience-date">Nov 2025 — Present</div>
         </div>
         <div class="experience-tags">
@@ -91,7 +91,7 @@ Current focus: clinical ML research at Memorial Sloan Kettering and Weill Cornel
       <img class="experience-icon" src="https://www.google.com/s2/favicons?domain=mskcc.org&sz=64" alt="" loading="lazy">
       <div class="experience-main">
         <div class="experience-top-row">
-          <div class="experience-title"><strong>Research Intern</strong> · Advanced Computing &amp; Oncology Lab, Memorial Sloan Kettering</div>
+          <div class="experience-title"><strong>Research Intern</strong> · <a href="https://www.mskcc.org/research-areas/research-teams/advanced-computing-and-oncology-lab"  target="_blank" rel="noopener">Advanced Computing &amp; Oncology Lab, Memorial Sloan Kettering</a></div>
           <div class="experience-date">Dec 2024 — Jan 2026</div>
         </div>
         <div class="experience-tags">
@@ -110,7 +110,7 @@ Current focus: clinical ML research at Memorial Sloan Kettering and Weill Cornel
       <img class="experience-icon" src="https://www.google.com/s2/favicons?domain=weill.cornell.edu&sz=64" alt="" loading="lazy">
       <div class="experience-main">
         <div class="experience-top-row">
-          <div class="experience-title"><strong>Research Intern</strong> · AI in Medicine &amp; Computational Biology Lab, Weill Cornell Medicine</div>
+          <div class="experience-title"><strong>Research Intern</strong> · <a href="https://ihlab.med.cornell.edu/" target="_blank" rel="noopener">AI in Medicine &amp; Computational Biology Lab, Weill Cornell Medicine</a></div>
           <div class="experience-date">Oct 2024 — Present</div>
         </div>
         <div class="experience-tags">
@@ -133,7 +133,7 @@ Current focus: clinical ML research at Memorial Sloan Kettering and Weill Cornel
           <div class="experience-date">Jan 2024 — Present</div>
         </div>
         <div class="experience-tags">
-          <span class="tag">Python</span><span class="tag">Data Pipeline</span><span class="tag">300k+ papers</span><span class="tag">Open Source</span>
+          <span class="tag">Full-Stack</span><span class="tag">Data Pipeline</span><span class="tag">300k+ papers</span><span class="tag">Open Source</span>
         </div>
       </div>
     </summary>
@@ -154,7 +154,7 @@ Current focus: clinical ML research at Memorial Sloan Kettering and Weill Cornel
     <details class="experience-item">
       <summary class="experience-header">
         <span class="experience-chevron">&#9656;</span>
-        <img class="experience-icon" src="/assets/img/logos/cyberlinc.svg" alt="Cyberlinc logo" loading="lazy">
+        <img class="experience-icon" src="https://www.google.com/s2/favicons?domain=cyberlinc.com&sz=64" alt="Cyberlinc logo" loading="lazy">
         <div class="experience-main">
           <div class="experience-top-row">
             <div class="experience-title"><strong>Full-Stack Developer</strong> · <a href="https://cyberlinc.com/" target="_blank" rel="noopener">Cyberlinc, Inc.</a></div>
@@ -260,7 +260,7 @@ Current focus: clinical ML research at Memorial Sloan Kettering and Weill Cornel
       <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" alt=""><span>Matplotlib</span></div>
       <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/plotly/plotly-original.svg" alt=""><span>Plotly</span></div>
       <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" alt=""><span>R</span></div>
-      <div class="tech-item"><img src="/assets/img/logos/polars.svg" alt="Polars logo"><span>Polars</span></div>
+      <div class="tech-item"><img src="https://cdn.simpleicons.org/polars/6B46C1" alt="Polars logo"><span>Polars</span></div>
     </div>
   </div>
 

@@ -134,14 +134,21 @@ body.sticky-bottom-footer {
   text-transform: uppercase;
   letter-spacing: 0.09em;
   color: var(--global-theme-color);
-  margin-top: 2.25rem !important;
-  margin-bottom: 0.85rem !important;
-  padding-bottom: 0.4rem;
-  border-bottom: 1px solid var(--global-divider-color);
+  margin-top: 2.6rem !important;
+  margin-bottom: 1rem !important;
+  padding-top: 0.7rem;
+  padding-bottom: 0.5rem;
+  border-top: 1px solid var(--global-divider-color);
+  border-bottom: 2px solid rgba(29, 78, 216, 0.28);
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   gap: 1rem;
+}
+
+html[data-theme='dark'] .section-heading {
+  border-top-color: rgba(148, 163, 184, 0.42);
+  border-bottom-color: rgba(147, 197, 253, 0.48);
 }
 
 .section-more-inline {
@@ -549,7 +556,7 @@ body.sticky-bottom-footer {
 
 .skills-card {
   padding: 1rem 1.1rem 1.1rem 1.1rem;
-  border: 1px solid rgba(29, 78, 216, 0.22);
+  border: 1px solid rgba(29, 78, 216, 0.34);
   border-radius: 8px;
   background: linear-gradient(180deg, rgba(29, 78, 216, 0.03) 0%, transparent 42%), var(--global-card-bg-color);
   transition:
@@ -572,7 +579,7 @@ body.sticky-bottom-footer {
   color: var(--global-theme-color);
   margin-bottom: 0.85rem;
   padding-bottom: 0.5rem;
-  border-bottom: 1px solid var(--global-divider-color);
+  border-bottom: 2px solid rgba(29, 78, 216, 0.3);
 }
 
 .tech-grid {
@@ -620,8 +627,12 @@ body.sticky-bottom-footer {
 }
 
 html[data-theme='dark'] .skills-card {
-  border-color: rgba(147, 197, 253, 0.3);
+  border-color: rgba(147, 197, 253, 0.44);
   background: linear-gradient(180deg, rgba(147, 197, 253, 0.08) 0%, rgba(147, 197, 253, 0.02) 40%), var(--global-card-bg-color);
+}
+
+html[data-theme='dark'] .skills-card-title {
+  border-bottom-color: rgba(147, 197, 253, 0.56);
 }
 
 html[data-theme='dark'] .tech-item {
