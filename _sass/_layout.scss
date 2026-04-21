@@ -93,8 +93,24 @@ body.sticky-bottom-footer {
   .news,
   .latest-posts,
   .selected-papers,
+  .publications,
   .social {
-    margin-bottom: 2.5rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .news,
+  .publications {
+    border: 1px solid var(--global-divider-color);
+    border-radius: 12px;
+    padding: 1.5rem;
+    background-color: var(--global-card-bg-color);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+    margin-top: 1rem;
+  }
+
+  .news .table-responsive,
+  .publications .table-responsive {
+    margin-bottom: 0;
   }
 }
 
@@ -129,26 +145,21 @@ body.sticky-bottom-footer {
  ******************************************************************************/
 
 .section-heading {
-  font-size: 1.5rem !important;
-  font-weight: 1000 !important;
+  font-size: 1.85rem !important;
+  font-weight: 800 !important;
   text-transform: uppercase;
-  letter-spacing: 0.09em;
+  letter-spacing: 0.1em;
   color: var(--global-theme-color);
-  margin-top: 2.6rem !important;
-  margin-bottom: 1rem !important;
-  padding-top: 0.7rem;
-  padding-bottom: 0.5rem;
-  border-top: 1px solid var(--global-divider-color);
-  border-bottom: 2px solid rgba(29, 78, 216, 0.28);
+  margin-top: 3.5rem !important;
+  margin-bottom: 1.5rem !important;
+  padding-top: 1rem;
+  padding-bottom: 0.6rem;
+  border-top: 3px solid var(--global-theme-color);
+  border-bottom: 1px solid var(--global-divider-color);
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   gap: 1rem;
-}
-
-html[data-theme='dark'] .section-heading {
-  border-top-color: rgba(148, 163, 184, 0.42);
-  border-bottom-color: rgba(147, 197, 253, 0.48);
 }
 
 .section-more-inline {
@@ -248,7 +259,13 @@ html[data-theme='dark'] .section-heading {
   display: flex;
   flex-direction: column;
   gap: 0.35rem;
-  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 12px;
+  padding: 1.5rem;
+  background-color: var(--global-card-bg-color);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03);
 }
 
 .experience-item {
@@ -448,6 +465,10 @@ html[data-theme='dark'] .section-heading {
 
 .experience-list-more {
   margin-top: 0.75rem;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  background-color: transparent !important;
 }
 
 // Projects grid
@@ -455,7 +476,13 @@ html[data-theme='dark'] .section-heading {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 12px;
+  padding: 1.5rem;
+  background-color: var(--global-card-bg-color);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03);
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
@@ -521,7 +548,13 @@ html[data-theme='dark'] .section-heading {
 
 // Publication block
 .publication-item {
-  padding: 0.25rem 0 0.5rem 0;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  padding: 1.5rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 12px;
+  background-color: var(--global-card-bg-color);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03);
   line-height: 1.55;
 }
 
@@ -547,7 +580,13 @@ html[data-theme='dark'] .section-heading {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 0.9rem;
-  margin-bottom: 0.75rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 12px;
+  padding: 1.5rem;
+  background-color: var(--global-card-bg-color);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03);
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
